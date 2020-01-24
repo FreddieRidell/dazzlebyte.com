@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["dazzlebyte.com", "*.dazzlebyte.com"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://freddieridell.com/$1" }
+    }
+  ]
+}
